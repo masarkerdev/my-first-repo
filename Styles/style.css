@@ -1,4 +1,88 @@
-div{
-    background-color: black;
-    margin-bottom: 10px;
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+header {
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 12px 12px 20px lightgray
+}
+
+.nakibmenu {
+    width: 70%;
+    align-self: center;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
+
+
+}
+
+.nakibmenu>ul>li {
+    align-items: center;
+    display: inline-block;
+    margin-right: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    font-weight: 500;
+    text-decoration: none;
+
+}
+
+.nakibmenu>ul>li>a {
+    color: black;
+    text-decoration: none;
+}
+
+.logosection {
+    width: 15%;
+}
+
+.buttonclass {
+    width: 15%;
+}
+
+.navbutton {
+    padding: 15px 30px;
+    background-color: #FC5811;
+    border: 0px;
+    color: white;
+    font-size: 18px;
+
+}
+
+.herosection {
+    width: 100vw;
+    background-color: #EEDFD2;
+}
+
+.herowrapper {
+    align-items: center;
+    display:flex;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 70vh;
+
+}
+
+.leftside {
+    padding: 20px 60px;
+
+}
+
+.leftside >h1 {
+    font-size: 65px;
+    line-height: 0px;
+
+}
+.leftside > p, h5{
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.rightside {}
